@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ElleHack2024/static/css/main.6015743d.css",
+    "main.js": "/ElleHack2024/static/js/main.4a2e98a1.js",
+    "static/js/453.ed3810f9.chunk.js": "/ElleHack2024/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/ElleHack2024/index.html",
+    "main.6015743d.css.map": "/ElleHack2024/static/css/main.6015743d.css.map",
+    "main.4a2e98a1.js.map": "/ElleHack2024/static/js/main.4a2e98a1.js.map",
+    "453.ed3810f9.chunk.js.map": "/ElleHack2024/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6015743d.css",
+    "static/js/main.4a2e98a1.js"
+  ]
+}
