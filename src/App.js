@@ -75,7 +75,7 @@ const categoryStyle = {
       <div className="App-container">
         <div className="LogoContainer">
           <img src={logo} className="Logo" alt="logo" />
-          <h1 className="TeamName">T1 Coffee Addicts</h1>
+          <h1 className="TeamName">Savvy Sips</h1>
         </div>
         <div className="InputWrapper">
           <FaSearch id="SearchIcon"></FaSearch>
