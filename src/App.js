@@ -2,6 +2,7 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 // import { GeoAlt } from 'react-bootstrap-icons';
 
+import logo from "./page/logo.png"
 import Products from "./page/Products";
 import {FaSearch} from "react-icons/fa"
 import "./page/SearchBar.css"
@@ -71,7 +72,10 @@ const categoryStyle = {
   return (
     <div className="App">
       <div className="App-container">
-        <h1 className="TeamName">T1 Coffee Addicts</h1>
+        <div className="LogoContainer">
+          <img src={logo} className="Logo" alt="logo" />
+          <h1 className="TeamName">T1 Coffee Addicts</h1>
+        </div>
         <div className="InputWrapper">
           <FaSearch id="SearchIcon"></FaSearch>
           <input placeholder="Search your location"

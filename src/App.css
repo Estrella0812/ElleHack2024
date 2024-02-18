@@ -1,10 +1,20 @@
 .App {
   background-color: #ffffff;
+  color:#7b6353;
   display:flex;
   justify-content: center; /* Vertically center children */
   text-align: center;
   overflow-y: scroll;
   height: 100vh;
+}
+
+.LogoContainer {
+  padding-top: 10vh;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {

@@ -15,6 +15,7 @@ input {
     font-size: 1.25rem;
     width: 100%;
     margin-left: 5px;
+    color: #7b6353;
 }
 
 input:focus {

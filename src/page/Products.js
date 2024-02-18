@@ -7,7 +7,7 @@ export default function Products({ result }) {
     <div className="ResultList">
     <div className="ProductExample">
         <img src={""} className="Logo" alt="logo" />
-        <div className="websiteName">Website Name</div>
+        <div className="websiteName">Product Name</div>
         <div className="Rating box">Rating : {result.rating}/5
             <div className="RatingGraph">
                 <div className="fillIn" style={{width: `${percentage}%`}}></div>

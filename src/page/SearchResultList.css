@@ -25,7 +25,8 @@
 }
   
 .Logo {
-    width: 8vw;
+    width: 4.8vw;
+    margin-right: 1vw;
 }
 
 .websiteName {
@@ -39,7 +40,7 @@
 }
 
 .Rating {
-    border-left: 2px solid black;
+    border-left: 2px solid #9b775d;
     padding-left: 10%;
     width: fit-content;
     font-size: 20px;
