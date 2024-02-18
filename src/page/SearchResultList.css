@@ -50,13 +50,13 @@
     margin-top: 1vh;
     background-color: white;
     border-radius: 1rem;
-    border: 2px solid orange;
+    border: 2px solid #AD8263;
 }
 
 .fillIn {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: orange;
+    background-color: #AD8263;
     border-radius: 1rem;
 }
 
@@ -75,7 +75,7 @@
 
 .Visit {
     border-radius: 5rem; 
-    background-color: orange; 
+    background-color: #AD8263; 
     height: 80%; 
     width: 80%;
     color: white; 
@@ -88,7 +88,7 @@
 }
 
 .Visit:hover {
-    color: orange;
+    color: #AD8263;
     border-style: solid;
     background-color: white;
     cursor: pointer;

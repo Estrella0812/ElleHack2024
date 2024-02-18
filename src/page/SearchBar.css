@@ -23,7 +23,7 @@ input:focus {
 
 #SearchIcon {
     padding-left: 1vw;
-    color: royalblue;
+    color: #AD8263;
 }
 
 /* BUTTONS */
@@ -37,7 +37,7 @@ ul{
 
 li{
     border-style: solid;
-    border-color: orange;
+    border-color: #AD8263;
     border-radius: 10%;
     border-width: 3px;
 }
@@ -55,7 +55,7 @@ li{
     text-decoration: none;
     border: none;
     background-color: transparent;
-    color: orange;
+    color: #AD8263;
     font-weight: 500;
 }
 
@@ -64,5 +64,5 @@ li{
     text-underline-offset: 10px;
     text-decoration-thickness: 0.3em;
     cursor: pointer;
-    color: orange;
+    color: #AD8263;
 }

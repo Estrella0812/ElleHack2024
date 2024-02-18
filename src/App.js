@@ -29,6 +29,7 @@ function App() {
         try {
           const response = await fetch('/data.json'); // Assuming the JSON file is served from the public directory
           const data = await response.json();
+          console.log(data)
           setResults(data);
         } catch (error) {
           console.error('Error:', error);
@@ -39,7 +40,6 @@ function App() {
     }, []);
 
     const data = results; 
-    console.log(data)
 
 
   const handleSearch = (e) => {
@@ -64,7 +64,7 @@ const categoryStyle = {
   textUnderlineOffset: "10px",
   textDecorationThickness: "0.3em",
   cursor: "pointer",
-  backgroundColor: "orange",
+  backgroundColor: "#AD8263",
   color: "white"
 }
 
