@@ -1,0 +1,15 @@
+[
+    {"id": 1, "price": 366.99, "rating": 4.5},
+    {"id": 2, "price": 5677.99, "rating": 4.3},
+    {"id": 3, "price": 345.99, "rating": 4.8},
+    {"id": 4, "price": 236.99, "rating": 4.4},
+    {"id": 5, "price": 766.99, "rating": 3.2},
+    {"id": 6, "price": 578.99, "rating": 3.9},
+    {"id": 7, "price": 3766.99, "rating": 2.7},
+    {"id": 8, "price": 326.99, "rating": 3.1},
+    {"id": 9, "price": 654.99, "rating": 3.7},
+    {"id": 10, "price": 247.99, "rating": 4.3},
+    {"id": 11, "price": 864.99, "rating": 1.6},
+    {"id": 12, "price": 655.99, "rating": 2},
+    {"id": 13, "price": 774.99, "rating": 4}
+]

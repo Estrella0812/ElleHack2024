@@ -27,7 +27,7 @@ function App() {
   useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch('/data.json'); // Assuming the JSON file is served from the public directory
+          const response = await fetch('https://estrella0812.github.io/ElleHack2024/data.json'); // Assuming the JSON file is served from the public directory
           const data = await response.json();
           console.log(data)
           setResults(data);
