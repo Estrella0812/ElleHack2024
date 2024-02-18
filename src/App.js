@@ -50,7 +50,7 @@ function App() {
 //for category button and setting required info only
 const setCategory = (e) => {
     const products = [];
-    if(e.target.innerText === "PRICE"){
+    if(e.target.innerText === "PRICE - low to high"){
       setSelectedCategory("PRICE");
       setResults(sortByPrice(data));
     }else{
@@ -61,6 +61,7 @@ const setCategory = (e) => {
 
 
 const categoryStyle = {
+  borderRadius: "2rem",
   textDecoration: "underline",
   textUnderlineOffset: "10px",
   textDecorationThickness: "0.3em",
@@ -85,8 +86,8 @@ const categoryStyle = {
 
         <div className="row d-flex justify-content-center">
           <ul style={{marginBottom: '0'}}>
-            <li><a href="#" style={selectedCategory==="PRICE" ? {...categoryStyle} : {}} className="category" onClick={setCategory}>PRICE</a></li>
-            <li style={{marginLeft: "1vw"}}><a href="#" className="category" onClick={setCategory} style={selectedCategory==="RATING" ? {...categoryStyle} : {}}>RATING</a></li>
+            <li><a href="#" style={selectedCategory==="PRICE" ? {...categoryStyle} : {}} className="category" onClick={setCategory}>PRICE - low to high</a></li>
+            <li style={{marginLeft: "1vw"}}><a href="#" className="category" onClick={setCategory} style={selectedCategory==="RATING" ? {...categoryStyle} : {}}>RATING - high to low</a></li>
           </ul>
         </div>
         

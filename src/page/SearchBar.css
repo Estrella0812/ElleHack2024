@@ -39,7 +39,7 @@ ul{
 li{
     border-style: solid;
     border-color: #AD8263;
-    border-radius: 10%;
+    border-radius: 2rem;
     border-width: 3px;
 }
 
@@ -61,6 +61,7 @@ li{
 }
 
 .category:hover{
+    border-radius: 2rem;
     text-decoration: underline;
     text-underline-offset: 10px;
     text-decoration-thickness: 0.3em;
