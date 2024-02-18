@@ -1,5 +1,19 @@
 .App {
+  background-color: #ffffff;
+  display:flex;
+  justify-content: center; /* Vertically center children */
   text-align: center;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 5vh;
+  font-size: 60px;
+}
+
+.App-container{
+  width: 60%;
 }
 
 .App-logo {
