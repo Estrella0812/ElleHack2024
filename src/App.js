@@ -28,7 +28,7 @@ function App() {
   useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch('http://www.savvysips.ca/data.json'); // Assuming the JSON file is served from the public directory
+          const response = await fetch('https://www.savvysips.ca/data.json'); // Assuming the JSON file is served from the public directory
           const data = await response.json();
           console.log(data)
           setResults(data);
